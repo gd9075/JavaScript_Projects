@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 4rem;
+     display: flex;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     color: white;
+     
+     
+     
+     
+}
+#nav:hover ~ #blur{
+      transition: 2s;
+      filter: blur(10px);
+}
+/* #article1{
+    filter: blur(10px);
+} */
+#nav{
+   position: sticky;
+   width: 100%;
+   height: fit-content;
+   z-index: 1999;
+   top: 0; 
+}
+#nav a span{
+    color: white;
+}
+.logo{
+    margin: 1rem;
+}
+.navdiv{
+    margin: 1rem;
+
+}
+.navdiv a {
+    color: white;
+    text-decoration: none;
+    
+}
+.ul{
+    
+    display: flex;
+    text-align: center;
+    
+
+    list-style-type: none;
+    
+    
+
+}
+.ul li{
+    margin: 1rem;
+
+}
+.ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#check{
+     display: none;
+}
+#check:checked ~ ul{
+    top: 0;
+}
+#checkbtn{
+       margin: 1rem;
+       display: none;
+}
+
+.navListDiv{
+    text-align: center;
+}
+#nlast{
+    width: inherit;
+    height: fit-content;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    transition: .5s;
+    margin-top: 3.99rem;
+    z-index: 2;
+    top: -100%;
+    
+}
+.navListDiv{
+    width: 70%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;    
+}
+.navListDiv1{
+    width: 70%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+#lastnavDiv-1{
+    display: none;
+}
+#lastnavDiv-2{
+    display: none;
+}
+#lastnavDiv-3{
+    display: none;
+}
+#lastnavDiv-4{
+    display: none;
+}
+#lastnavDiv-5{
+    display: none;
+}
+#lastnavDiv-6{
+    display: none;
+}
+#lastnavDiv-7{
+    display: none;
+}
+#lastnavDiv-8{
+    display: none;
+}
+#lastnavDiv-9{
+    display: none;
+}
+#lastnavDiv-10{
+    display: none;
+}
+#lastnavDiv-11{
+    display: none;
+}
+#lastnavDiv-12{
+   display: none;
+}
+.navListDiv ul{
+    float: left;
+    margin-left: 5%;
+    list-style-type: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+.navListDiv ul .bigf{
+     font-size: 2rem;
+     margin-top: 0.5rem;
+     font-weight: 300;
+}
+.normalf {
+    margin-top: 0.5rem;
+}
+.headf{
+    margin-bottom: 1rem;  
+    color: grey;  
+}
+
+li{
+    cursor: pointer;
+}
+#serch{
+    height: 2%;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+input{
+    height: 2.1rem;
+    text-align: left;
+    margin-left: 2rem;
+    color: white;
+    background-color: black;
+    border-top: 0.1rem solid;
+    border-left: none;
+    border-right: none;
+    border-color:  white;
+    
+}
+.navListDiv1 ul{
+    margin-top: 1rem;
+    list-style-type: none;
+}
+.navListDiv1 label{
+    margin-right: 0.5rem;
+}
+.navListDiv1{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+@media (min-width:771px) and (max-width:1010px)
+{
+    .navbar{
+        height: 4rem ;
+    }
+    .logo{
+        margin: 0.7rem;
+    }
+    .navdiv{
+        margin: 0.7rem;
+    
+    }
+    .ul li{
+        margin: 0.7rem;
+    
+    }
+}
+
+
+
+@media  (max-width:880px)
+{
+    .logo{
+        margin-right: 13rem;
+    }
+    #checkbtn{
+        display: block;
+    }
+    
+    nav ul {
+        width: 100%;
+        
+        height: 80%;
+        position: fixed;
+        background-color: black;
+        margin-top: 3.9rem;
+        top: -100%;
+        flex-direction: column;
+        transition: .5s;
+        align-items: center;
+        
+        
+    }
+    nav ul li{
+        margin-top: 0;
+        display: inline;
+        margin: 1rem;
+        
+    }
+    #nlast{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: -100%;
+        
+        position: fixed;
+        
+        
+        transition: .5s;
+        margin-top: 3.99rem;
+        z-index: 1000;
+       
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

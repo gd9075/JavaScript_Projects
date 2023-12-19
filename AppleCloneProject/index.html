@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+  
+</head>
+<body >
+  <nav  id="nav" >
+    <nav class="navbar">
+        <label for="" class="logo">
+         <i class="fa-brands fa-apple"></i>
+        </label>
+     
+        <input type="checkbox" name="" id="check">
+       
+
+        <ul class="ul">
+         <li> <a href="#" id="a1" class="list" onmouseover="dis(),dis1()" 
+             onclick="cli()" >Store </a> </li>
+         <li><a href="#" onmouseover="dis(), dis2()" >Mac</a></li>
+         <li><a href="#" onmouseover="dis(), dis3()">iPad</a></li>
+         <li><a href="#" onmouseover="dis(), dis4()">iPhone</a></li>
+         <li><a href="#" onmouseover="dis(), dis5()">Watch</a></li>
+         <li><a href="#" onmouseover="dis(),dis6()">Airpods</a></li>
+         <li><a href="#" onmouseover="dis(),dis7()">TV & home</a></li>
+         <li><a href="#" onmouseover="dis(),dis8()">Entertenment</a></li>
+         <li><a href="#" onmouseover="dis(), dis9()">Accessores</a></li>
+         <li> <a href="#" onmouseover="dis(),dis10()">Supports</a></li>
+         
+        </ul>
+        <div class="navdiv"><a href="#" onclick="clic()"><span><i class="fa-solid fa-magnifying-glass"></i></span></a></div>
+        <div class="navdiv" id="ndiv"><a href="#" onclick="cli()">  <span> <i class="fa-solid fa-bag-shopping"></i></span></a></div>
+        
+        
+        <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
+   </nav>
+   <nav class="navList" id="nlast" >
+    <!-- <div><button id="btn">back</button></div> -->
+    <div class="navListDiv" id="lastnavDiv-1"   onmouseover="dis()" onmouseout="nodis()">
+        <ul >
+            <li class="headf">shop</li>
+            <li class="bigf">shop the latest</li>
+            <li class="bigf"> Mac</li>
+            <li class="bigf">ipad</li>
+            <li class="bigf">iphone</li>
+            <li class="bigf">appleWatch</li>
+            <li class="bigf">Accessores</li>
+        </ul>
+        <ul>
+            <li class="headf">Quick links</li>
+            <li class="normalf"> find a store </li>
+            <li class="normalf"> order status</li>
+            <li class="normalf">way to buy</li>
+        </ul>
+        <ul>
+            <li class="headf"> shop special store</li>
+            <li class="normalf"> education</li>
+            <li class="normalf"> business</li>
+        </ul>
+
+    </div>
+    <div class="navListDiv" id="lastnavDiv-2" onmouseover="dis()" onmouseout="nodis()">
+            <ul>
+                <li class="headf"> explore Mac</li>
+                <li class="bigf">Explore all Mac</li>
+                <li class="bigf">Macbook Air</li>
+                <li class="bigf">Macbook pro</li>
+                <li class="bigf">iMac</li>
+                <li class="bigf">Mac mini</li>
+                <li class="bigf">Mac studio</li>
+                <li class="bigf">Mac pro</li>
+                <li class="bigf">Displays</li>
+                <li class="normalf">compare mac</li>
+                <li class="normalf">mac does that</li>
+            </ul>
+            <ul>
+                <li class="headf"> shop mac</li>
+                <li class="normalf">shop mac</li>
+                <li class="normalf">mac Accessores</li>
+                <li class="normalf">way to buy mac</li>
+            </ul>
+            <ul>
+                <li class="headf"> more from mac</li>
+                <li class="normalf">mac support</li>
+                <li class="normalf">macOs ventura</li>
+                <li class="normalf">final cut pro</li>
+                <li class="normalf">logic pro</li>
+                <li class="normalf">continuity</li>
+                <li class="normalf">icloud</li>
+                <li class="normalf">mac for business</li>
+                <li class="normalf">education</li>
+            </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-3" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore ipad</li>
+            <li class="bigf">Explore all ipd</li>
+            <li class="bigf">iPad Air</li>
+            <li class="bigf">iPad pro</li>
+            <li class="bigf">ipad mini</li>
+            <li class="bigf">apple pencil</li>
+            <li class="bigf">keybords</li>
+         
+            <li class="normalf">compare ipad</li>
+            <li class="normalf">ipad does that</li>
+        </ul>
+        <ul>
+            <li class="headf"> shop iPad</li>
+            <li class="normalf">shop ipad</li>
+            <li class="normalf">iPad Accessores</li>
+            <li class="normalf">way to buy ipad</li>
+        </ul>
+        <ul>
+            <li class="headf"> more from ipad</li>
+            <li class="normalf">iPad support</li>
+            <li class="normalf">ipadOs 16</li>
+            <li class="normalf">final cut pro for ipad</li>
+            
+            <li class="normalf">icloud</li>
+           
+            <li class="normalf">education</li>
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-4" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore iPhones</li>
+            <li class="bigf">Explore all iPhones</li>
+            <li class="bigf">iphone14</li>
+            <li class="bigf">iphone14 pro</li>
+            <li class="bigf">iphone 13</li>
+            <li class="bigf">iphone 12</li>
+            <li class="bigf">iphone SE</li>
+          
+            <li class="normalf">compare iphone</li>
+            <li class="normalf">iphone does that</li>
+        </ul>
+        <ul>
+            <li class="headf"> shop iphone</li>
+            <li class="normalf">shop iphone</li>
+            <li class="normalf">iphone Accessores</li>
+            <li class="normalf">way to buy mac</li>
+            <li class="normalf">apple trade in</li>
+        </ul>
+        <ul>
+            <li class="headf"> more from iphone</li>
+            <li class="normalf">iphone support</li>
+            <li class="normalf">iOs 16</li>
+            <li class="normalf">iphone privecy</li>
+            <li class="normalf">wallet</li>
+            <li class="normalf">siri</li>
+            <li class="normalf">icloud</li>
+           
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-5" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore Watch</li>
+            <li class="bigf">Explore all apple watches</li>
+            <li class="bigf">apple watch altra</li>
+            <li class="bigf">apple watch series 8</li>
+            <li class="bigf">apple watch SE</li>
+            <li class="bigf">apple watch nike</li>
+            
+          
+            <li class="normalf">compare watch</li>
+            <li class="normalf">why apple watch</li>
+        </ul>
+        <ul>
+            <li class="headf"> shop watch</li>
+            <li class="normalf">shop apple watch</li>
+            <li class="normalf">apple watch Accessores</li>
+            <li class="normalf">way to buy </li>
+            <li class="normalf">apple watch straps</li>
+        </ul>
+        <ul>
+            <li class="headf"> more from watch</li>
+            <li class="normalf">apple watch support</li>
+            <li class="normalf"> watchiOs 9</li>
+          
+           
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-6" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore Airpods</li>
+            <li class="bigf">Explore all apple Airpods</li>
+            <li class="bigf">Airpods 2nd generation</li>
+            <li class="bigf">Airpods 3rd generation</li>
+            <li class="bigf">Airpods pro 2nd generation</li>
+            <li class="bigf">Airpods max</li>
+            
+          
+            <li class="normalf">compare Airpods</li>
+           
+        </ul>
+        <ul>
+            <li class="headf"> shop Airpods</li>
+            <li class="normalf">shop Airpods</li>
+            <li class="normalf">Airpods Accessores</li>
+            
+        </ul>
+        <ul>
+            <li class="headf"> more from Airpods</li>
+            <li class="normalf">Airpods support</li>
+            <li class="normalf"> apple music</li>
+          
+           
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-7" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore TV & home</li>
+            <li class="bigf">Explore TV & Home</li>
+            <li class="bigf">apple TV 4K</li>
+            <li class="bigf">Homepad</li>
+            <li class="bigf">Hompad mini</li>
+            
+         
+        </ul>
+        <ul>
+            <li class="headf"> shop TV & Home</li>
+            <li class="normalf">shop apple TV 4k</li>
+            <li class="normalf">Tv & home Accessores</li>
+            <li class="normalf">shop homepod mini</li>
+            <li class="normalf">shop homepod</li>
+            <li class="normalf">shop siri remote</li>
+        </ul>
+        <ul>
+            <li class="headf"> more from TV & Home</li>
+            <li class="normalf">apple tv support support</li>
+            <li class="normalf">homepod support</li>
+            <li class="normalf">apple tv app</li>
+            <li class="normalf">apple TV+</li>
+            <li class="normalf">home app</li>
+            <li class="normalf">apple music</li>
+            <li class="normalf">siri</li>
+            <li class="normalf">airplay</li>
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-8" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore Entertenment</li>
+            <li class="bigf">Explore all Entertenment</li>
+            <li class="bigf">apple one</li>
+            <li class="bigf">apple tv</li>
+            <li class="bigf">apple music</li>
+            <li class="bigf">apple arcade</li>
+            <li class="bigf">apple prodcasts</li>
+            <li class="bigf">apple books</li>
+            <li class="bigf">apple store</li>
+           
+        </ul>
+        <ul>
+            <li class="headf"> Supports</li>
+            <li class="normalf">apple TV+ support</li>
+            <li class="normalf">apple music supports</li>
+           
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-9" onmouseover="dis()" onmouseout="nodis()">
+        <ul>
+            <li class="headf"> explore Accessores</li>
+            <li class="bigf">Explore all Accessores</li>
+            <li class="bigf">Mac</li>
+            <li class="bigf">iPad</li>
+            <li class="bigf">iPhone</li>
+            <li class="bigf">apple watch</li>
+            <li class="bigf">airplay</li>
+            <li class="bigf">TV & Home</li>
+            
+           
+        </ul>
+        <ul>
+            <li class="headf"> explore Accessores</li>
+            <li class="normalf"> made by apple </li>
+            <li class="normalf">airtag</li>
+           
+        </ul>
+    </div>
+    <div class="navListDiv" id="lastnavDiv-10" onmouseover="dis()" onmouseout="nodis()">
+        
+        <ul>
+            <li class="headf"> explore support</li>
+            <li class="bigf">Music</li>
+            <li class="bigf">Mac</li>
+            <li class="bigf">iPad</li>
+            <li class="bigf">iPhone</li>
+            <li class="bigf">apple watch</li>
+            <li class="bigf">airplay</li>
+            <li class="bigf">TV </li>
+            <li class="normalf">explore support</li>
+            
+           
+        </ul>
+        <ul>
+            <li class="headf"> get help</li>
+            <li class="normalf">community</li>
+            <li class="normalf">cheack coverage</li>
+            <li class="normalf">repair</li>
+            <li class="normalf">contact us</li>
+            
+        </ul>
+        <ul>
+            <li class="headf"> helpful topics</li>
+            <li class="normalf">get apple+ care</li>
+            <li class="normalf">apple Id & passWord</li>
+            <li class="normalf">find my</li>
+            <li class="normalf">accesibility</li>
+           
+        </ul>
+    </div>
+    <div class="navListDiv1" id="lastnavDiv-11" >
+        <div id="serch"><span class="logoser"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" id="ser" placeholder="search apple.com" ></div>
+                <ul>
+                    <li class="headf"> <label for=""><i class="fa-solid fa-arrow-right"></i></label>Quick links</li>
+                    <li class="normalf"><label for=""><i class="fa-solid fa-arrow-right"></i></label>find a store</li>
+                    <li class="normalf"><label for=""><i class="fa-solid fa-arrow-right"></i></label>Accessores</li>
+                    <li class="normalf"><label for=""><i class="fa-solid fa-arrow-right"></i></label>Airpods</li>
+                    <li class="normalf"><label for=""><i class="fa-solid fa-arrow-right"></i></label>airtag</li>
+                    <li class="normalf"><label for=""><i class="fa-solid fa-arrow-right"></i></label>apple trade in</li>
+                </ul>
+    </div>
+    <div class="navListDiv1" id="lastnavDiv-12">
+        <h2>bag is empty</h2>
+     
+        <ul>
+            <li class="headf"> </li>
+            <li class="normalf">shop apple TV 4k</li>
+            <li class="normalf">Tv & home Accessores</li>
+            <li class="normalf">shop homepod mini</li>
+            <li class="normalf">shop homepod</li>
+            <li class="normalf">shop siri remote</li>
+        </ul>
+    </div>
+   </nav>
+ </nav>
+    <div id="blur">
+     <header class="hederbar">
+        <div class="headdiv" id="hdiv1">
+            <p>Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.*   <a href="" id="heada1">shop now ></a></p>
+          
+        </div>
+        </header>
+
+        <article class="article" id="article1">
+            <p id="p1">iPhone14</p>
+            <p id="p2">Pro. Beyond</p>
+            <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+              
+              
+            
+            
+             <div id="articlediv">
+            <img src=" https://www.apple.com/in/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg " alt="" id="img12">
+            </div>
+            <div id="articlediv1">
+            <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpg" alt="" class="img" id="img11">
+            </div>
+    </article>
+
+    <aside class="aside" id="aside1">
+        <p id="ap1">iPhone14</p>
+        <p id="ap2">Pro. Beyond</p>
+        <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+          
+        <img src=" https://www.apple.com/sg/iphone-14/images/meta/iphone-14_overview__50yr9pd9hfm2_og.png" alt="">
+         </aside>
+
+         <section class="s1" id="e1">
+            <p id="sp1">
+                <i class="fa-brands fa-apple" id="si"></i>WATCH
+            </p>
+            <p id="sp3">SERIES 8</p>
+            <p id="sp2">A health leap ahead</p>
+            <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+              
+            <img src=" https://www.apple.com/v/apple-watch-series-8/c/images/meta/gps-lte__gi7uzrvkt5e2_og.png?202304042140" alt="">
+            </section>
+
+
+            <figure id="f1">
+                <aside class="aside" id="asidef1">
+                    <p id="a1p1" class="com">   <i class="fa-brands fa-apple" ></i>Trade in</p>
+                    <p id="a1p2" class="comm">Upgrade and save. its that easy</p>
+                    <pre ><a href="" id="aunic">see what your device is worth ></a>  </pre>
+                      
+                    <img src=" https://www.gizmochina.com/wp-content/uploads/2022/01/iphone-trade-in.jpg" alt="">
+                     </aside>
+    
+                     <aside class="aside" id="asidef2">
+                        <p id="a2p1" class="com">iPhone14</p>
+                        <p id="a2p2" class="comm">Pro. Beyond</p>
+                        <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+                          
+                        <img src=" https://images.livemint.com/img/2020/10/27/600x338/Screenshot_2020-10-23_at_3.54.18_PM_1603448726871_1603448734487_1603820630244.png" alt="">
+                         </aside>
+    
+            </figure>
+            <figure id="f2">
+                 
+                <aside class="aside" id="asidef3">
+                    <p id="a3p1" class="com">iPad</p>
+                    <p id="a3p2" class="comm">lovable.Drovable.Magical</p>
+                    <pre> <a href="">Learn more ></a></pre>
+                      
+                    <img src=" https://www.apple.com/v/ipad-10.9/b/images/meta/ipad-10-9_overview__ehbbggmh3wgi_og.png" alt="">
+                     </aside>
+    
+                     <aside class="aside" id="asidef4">
+                        <p id="a4p1" class="com">Macbook Pro</p>
+                        <p id="a4p2" class="comm">superchanged by m2 pro</p>
+                        <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+                          
+                        <img src=" https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/og-macbook-pro-202301?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1670261864358" alt="">
+                         </aside>
+    
+            </figure>
+            <figure id="f3">
+                <aside class="aside" id="asidef5">
+                    <p id="a5p1" class="com">Watch</p>
+                    <p id="a5p2" class="comm">Pro. Beyond</p>
+                    <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+                      
+                    <img src=" https://www.apple.com/in/apple-watch-ultra/images/overview/hero/hero_watch_ultra__cbu8ymf4a8xe_large.jpg" alt="">
+                     </aside>
+    
+                     <aside class="aside" id="asidef6">
+                        <p id="a6p1" class="com">homepod</p>
+                        <p id="a6p2" class="comm">profound sound</p>
+                        <pre><a href="">Buy ></a>  <a href="">Learn more ></a></pre>
+                          
+                        <img src=" https://www.apple.com/newsroom/images/product/homepod/lifestyle/Apple-HomePod-hero-230118.jpg.landing-big_2x.jpg" alt="">
+                         </aside>
+    
+            </figure>
+             
+            <div class="secondlast">
+           
+            </div>
+
+        
+            <footer>
+                <div id="footerdiv1">
+                  <p id="fp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ducimus sed ratione! Facere unde explicabo, nostrum quo laboriosam, aliquam quod nulla minus expedita distinctio tempore! Magnam vitae debitis doloribus veniam, similique alias non quas reiciendis  obcaecati harum commodi, voluptatem expedita.<a href="#">serach here</a>  Molestiae, magni! Possimus, perspiciatis quisquam quaerat aliquam inventore repellendus veniam tempore, eum sint tempora corporis culpa, assumenda qui commodi non. Iure, fugiat deserunt voluptas magni, voluptate consequuntur esse fugit, laudantium magnam earum delectus ipsam consequatur excepturi enim iusto. Nam amet cumque facere minus reiciendis quod odio, ipsum fugit excepturi <a href="#">term and conditions</a> deleniti incidunt natus eaque vero labore repudiandae sapiente dolore tempora tempore? Libero nulla obcaecati, sequi cumque quos impedit facere nesciunt praesentium, sint corporis perspiciatis, cum odio.</p>
+                </div>
+                
+                <div id="footerdiv2">
+                      <table >
+                        
+                          
+                        
+                        <tbody>
+                          <tr class="tr">
+                            <td><b>shope and learn</b></td>
+                            <td><b>account</b></td>
+                            <td><b>apple store</b></td>
+                            <td><b>busness</b></td>
+                            <td><b>apple values</b></td>
+                          </tr>
+                          <tr>
+                            <td>store</td>
+                            <td>manage id</td>
+                            <td>find store</td>
+                            <td>apple busenss</td>
+                            <td>accesbility</td>
+                          </tr>
+                          <tr>
+                            <td>mac</td>
+                            <td>apple store acc</td>
+                            <td>genius bar</td>
+                            <td>shop for bus</td>
+                            <td>eduaction</td>
+                          </tr>
+                          <tr>
+                            <td>ipad</td>
+                            <td>icloud</td>
+                            <td colspan="2">today at apple</td>
+                            <!-- <td></td> -->
+                            <td>envoirement</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2">iphone</td>
+                            <!-- <td></td> -->
+                            <td>apple camp</td>
+                            <td><b>for education</b></td>
+                            <td>privecy</td>
+                          </tr>
+                          <tr>
+                            <td>wtach</td>
+                            <td><b>entertenment</b></td>
+                            <td>apple trade in</td>
+                            <td>apple education</td>
+                            <td>supplyer resonciblity</td>
+                          </tr>
+                          <tr>
+                            <td>airpod</td>
+                            <td>apple one</td>
+                            <td>way to buy</td>
+                            <td colspan="2">shop educstion</td>
+                            <!-- <td></td> -->
+                          </tr>
+                          <tr>
+                            <td>tv homw</td>
+                            <td>apple tv</td>
+                            <td>recycleing</td>
+                            <td >apple univercity</td>
+                            <td><b>about apple</b></td>
+                          </tr>
+                          <tr>
+                            <td>airtag</td>
+                            <td>apple music</td>
+                            <td colspan="2">oreder status</td>
+                            <!-- <td></td> -->
+                            <td>newsroom</td>
+                          </tr>
+                          <tr>
+                            <td>accesaries</td>
+                            <td>apple arcade</td>
+                            <td>shoping help</td>
+                            <td><b>for helthcare</b>
+                            </td>
+                            <td>ledership</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="2">giftcard</td>
+                            <td colspan="2">apple podcasted</td>
+                            <!-- <td></td> -->
+                            <td>apple helthcare</td>
+                            <td>carere oopertunities</td>
+                          </tr>
+                          <tr>
+                            <!-- <td></td> -->
+                            <td colspan="2">apple book</td>
+                            <!-- <td></td> -->
+                            <td>helth on apple watch</td>
+                            <td>invester</td>
+                          </tr>
+                          <tr>
+                            <td><b>apple walet</b></td>
+                            <td colspan="3">app store</td>
+                            <!-- <td></td>
+                            <td></td> -->
+                            <td>ethic and complaints</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">wallet</td>
+                            <!-- <td></td>
+                            <td></td>
+                            <td></td> -->
+                            <td>events</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4"></td>
+                            <!-- <td></td>
+                            <td></td>
+                            <td></td> -->
+                            <td>contact apple</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
+                </div>
+                
+              <div id="footerdiv4">
+                <div id="fd1">
+                    <input type="checkbox" name="" id="fc1" class="fc">
+                    <label for="fc1" class="label" id="l1"><span>shop and learn</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful1">
+                        <li>store</li>
+                        <li>mac</li>
+                        <li>ipad</li>
+                        <li>iphone</li>
+                        <li>watch</li>
+                        <li>air pods</li>
+                        <li>tv & home</li>
+                        <li>air tag</li>
+                        <li>accesores</li>
+                        <li>gift cards</li>
+      
+                    </ul>
+                </div>
+                <div id="fd2">
+                    <input type="checkbox" name="" id="fc2" class="fc">
+                    <label for="fc2" class="label" id="l2"><span>apple wallet</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful2">
+                        <li>wallet</li>
+        
+                    </ul>
+                </div>
+                <div id="fd3">
+                    <input type="checkbox" name="" id="fc3" class="fc">
+                    <label for="fc3" class="label" id="l3"><span>shop and learn</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful3">
+                        <li>manage your apple ID</li>
+                        <li>apple store account</li>
+                        <li>icloud.com</li>
+      
+                    </ul>
+                </div>
+                <div id="fd4">
+                    <input type="checkbox" name="" id="fc4" class="fc">
+                    <label for="fc4" class="label" id="l4"><span>Entertainment</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful4">
+                        <li>apple one</li>
+                        <li>apple TV+</li>
+                        <li>apple music</li>
+                        <li>apple arcade</li>
+                        <li>apple postcards</li>
+                        <li>apple books</li>
+                        <li>apple store</li>
+      
+                    </ul>
+                </div>
+                <div id="fd5">
+                    <input type="checkbox" name="" id="fc5" class="fc">
+                    <label for="fc5" class="label" id="l5"><span>apple store</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful5">
+                        <li>find a store</li>
+                        <li>genius bar</li>
+                        <li>today at apple</li>
+                        <li>apple camp</li>
+                        <li>apple trade in</li>
+                        <li>ways to buy</li>
+                        <li>Recycaling programme</li>
+                        <li>order status</li>
+                        <li>shopping help</li>
+      
+                    </ul>
+                </div>
+                <div id="fd6">
+                    <input type="checkbox" name="" id="fc6" class="fc">
+                    <label for="fc6" class="label" id="l6"><span>for business</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful6">
+                        <li>apple and business</li>
+                        <li>shop for business</li>
+      
+                    </ul>
+                </div>
+                <div id="fd7">
+                    <input type="checkbox" name="" id="fc7" class="fc">
+                    <label for="fc7" class="label" id="l7"><span>for education</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful7">
+                        <li>apple and education</li>
+                        <li>shop for education</li>
+                        <li>shop for univercity</li>
+      
+                    </ul>
+                </div>
+                <div id="fd8">
+                    <input type="checkbox" name="" id="fc8" class="fc">
+                    <label for="fc8" class="label" id="l8"><span>for helthcare</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful8">
+                        <li>apple in helthcare</li>
+                        <li>helth on apple watch</li>
+      
+                    </ul>
+                </div>
+                <div id="fd9">
+                    <input type="checkbox" name="" id="fc9" class="fc">
+                    <label for="fc9" class="label" id="l9"><span>apple values</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful9">
+                        <li>accesiblity</li>
+                        <li> education</li>
+                        <li>envoirment</li>
+                          <li>privacy</li>
+                          <li>supplair responsiblity</li>
+                    </ul>
+                </div>
+                <div id="fd10">
+                    <input type="checkbox" name="" id="fc10" class="fc">
+                    <label for="fc10" class="label" id="l10"><span>about apple</span>
+                        <span class="span">+</span>
+                    </label>
+                    <ul class="ful" id="ful10">
+                        <li>newsroom</li>
+                        <li>apple ledership</li>
+                        <li>carrer opportunities</li>
+                        <li>investors</li>
+                        <li>ethics and complians</li>
+                        <li>events</li>
+                        <li>contact apple</li>
+      
+                    </ul>
+                </div>
+            </div>
+                <div id="footerdiv3">
+                <p id="fp">More ways to shop: <a href="">Find an Apple Store</a>  or <a href="">other retailer</a>  near you. Or call 000800 040 1966.</p>
+              </div> 
+                
+              </footer>
+            </div>
+           <!-- ------------------------------------------------ -->
+         <script src="navbar.js"></script> 
+</body>
+</html>

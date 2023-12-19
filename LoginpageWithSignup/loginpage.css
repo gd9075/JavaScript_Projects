@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:  #e3f2fd;
+}
+h2{
+    margin-top: 150px;
+}
+.outer{
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+input{
+    text-align: center;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+button{
+    width: 300px;
+    border-radius: 9px;
+   
+}
+#loginbtn{
+    background-color: rgba(52, 128, 52, 0.529);
+}
+#signupbtn{
+    margin-top: 10px;
+    background-color: rgba(46, 46, 135, 0.49);
+}

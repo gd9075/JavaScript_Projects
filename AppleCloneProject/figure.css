@@ -1,0 +1,254 @@
+#f1{
+    
+    width: 100%;
+    display: flex;
+    margin-top:1.9rem;
+    margin-bottom: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+aside{
+    width: 100%;
+    
+    margin: 0;
+    
+    text-align: center;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+#asidef1{
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+}
+#a1p1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#a1p2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size:2.3rem ;
+    color: black;
+    margin-bottom: 1.1rem;
+}
+
+aside pre a{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2997ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+aside img{
+    width: 100%;
+}
+
+#asidef2{
+    margin-left: 1.7rem;
+    margin-right: 0.7rem;
+    background-color: black;
+}
+#a2p1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#a2p2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size:2.3rem ;
+    color: white;
+    margin-bottom: 1.1rem;
+}
+
+#f2{
+    
+    width: 100%;
+    display: flex;
+    margin-top:1.9rem;
+    margin-bottom: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#asidef3{
+    margin-left: 1.7rem;
+    margin-right: 0.7rem;
+}
+#a3p1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#a3p2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size:2.3rem ;
+    color: black;
+    margin-bottom: 1.1rem;
+}
+#asidef4{
+    margin-left: 1.7rem;
+    margin-right: 0.7rem;
+    background-color: black;
+}
+#a4p1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#a4p2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size:2.3rem ;
+    color: white;
+    margin-bottom: 1.1rem;
+}
+#f3{
+    
+    width: 100%;
+    display: flex;
+    margin-top:1.9rem;
+    margin-bottom: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#asidef5{
+    margin-left: 1.7rem;
+    margin-right: 0.7rem;
+}
+#a5p1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#a5p2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size:2.3rem ;
+    color: black;
+    margin-bottom: 1.1rem;
+}
+#asidef6{
+    margin-left: 1.7rem;
+    margin-right: 0.7rem;
+    background-color: black;
+}
+#a6p1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#a6p2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size:2.3rem ;
+    color: white;
+    margin-bottom: 1.1rem;
+}
+@media (max-width:800px)
+{
+       #f1{
+        flex-direction: column;
+       }
+       #aunic{
+        font-size: 1rem;
+       }
+       #f2{
+        flex-direction: column;
+       }
+       
+       #f3{
+        flex-direction: column;
+       }
+
+}
+@media (max-width:640px)
+{
+    #a1p1{
+        font-weight: bold;
+        padding-top: 0.9rem;
+    }
+    #a1p2{
+        margin-top: 0.1rem;
+        margin-bottom: 0.7rem;
+    }
+    .com{
+        font-size: 3rem;
+    }
+    .comm{
+        font-size:1.7rem ;
+    }
+    #a4p1{
+        font-size: 3rem;
+    }
+    #a2p1{
+        font-weight: bold;
+        padding-top: 0.9rem;
+    }
+    #a2p2{
+        margin-top: 0.1rem;
+        margin-bottom: 0.7rem;
+    }
+    #a3p1{
+        font-weight: bold;
+        padding-top: 0.9rem;
+    }
+    #a3p2{
+        margin-top: 0.1rem;
+        margin-bottom: 0.7rem;
+    }
+    #a4p1{
+        font-weight: bold;
+        padding-top: 0.9rem;
+    }
+    #a4p2{
+        margin-top: 0.1rem;
+        margin-bottom: 0.7rem;
+    }
+    #a5p1{
+        font-weight: bold;
+        padding-top: 0.9rem;
+    }
+    #a5p2{
+        margin-top: 0.1rem;
+        margin-bottom: 0.7rem;
+    }
+    #a6p1{
+        font-weight: bold;
+        padding-top: 0.9rem;
+    }
+    #a6p2{
+        margin-top: 0.1rem;
+        margin-bottom: 0.7rem;
+    }
+    aside pre a{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #2997ff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+   
+}
+

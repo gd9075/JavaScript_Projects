@@ -1,0 +1,80 @@
+
+.s1{
+    
+    width: 100%;
+    
+    margin: 0;
+    
+    text-align: center;
+    display: block;
+    
+    background-color: black;
+    
+   cursor: pointer;
+}
+#sp1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 1.3rem;
+}
+#sp3{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: red;
+    margin-bottom: 1.1rem;
+}
+#sp2{
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: white;
+    margin-bottom: 1.1rem;
+}
+section pre a{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2997ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+#si{
+    font-size: 4rem;
+    color: white;
+}
+section img{
+    width: 100%;
+
+}
+
+@media (max-width:800px)
+{
+    #sp1{
+        font-weight: bold;
+        font-size: 3rem;
+        
+        margin-bottom: 0;
+        padding-top: 0.9rem;
+    }
+    #si{
+        font-size: 3rem;
+        color: white;
+    }
+    #sp2{
+        margin-top: 0.1rem;
+        font-weight: bold;
+        font-size: 1.7rem;
+        
+        margin-bottom: 0.7rem;
+    }
+    section pre a{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #2997ff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+   
+}

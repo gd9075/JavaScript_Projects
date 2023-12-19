@@ -1,0 +1,28 @@
+.hederbar{
+    height: 5rem;
+    width: 100%;
+    
+    
+    
+}
+.headdiv{
+     padding-top: 1rem;  
+    height: 4rem;
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-size-adjust: auto;
+    
+}
+a{
+    cursor: pointer;
+}
+a:link{
+    color: blue;
+}
+p{
+    
+}
